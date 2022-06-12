@@ -4,11 +4,25 @@ body{
 }
 /************Selecionar*******************************************************************/
 
-.selecionado{
+.selecionado-prato, .selecionado-bebida, .selecionado-sobremesa{
     box-sizing: border-box;
     border: 5px #32B72F solid;
     
 }
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check ion-icon{
+    color: #32B72F;
+    font-size: 15px;
+    display: none;
+}
+.toVendoTudo ion-icon, .toVendoTudo2 ion-icon, .toVendoTudo3 ion-icon{
+    display: initial;
+}
+
 
 /************************************************************ MENU SUPERIOR **************/
 .caixa-menu{
@@ -135,7 +149,7 @@ body{
     
 }
 .caixa-menu-inferior button{
-    background-color: #CBCBCB;
+    
     border-radius: 50px;
     width: 85%;
     height: 61px;
@@ -146,7 +160,12 @@ body{
     color: white;
 }
 
-.caixa-menu-inferior button:hover {
-    border: 5px rgb(0, 255, 42) solid;
+.botao-inferior{
+    background-color: #CBCBCB;
 }
+
+.botao-verde{
+    background-color: #32B72F;
+}
+
 

@@ -27,73 +27,98 @@
             <h3>Primeiro, seu prato</h3>
             <div class="caixa-todos-produtos">
 
-            <div class="caixa-produto">
+            <div class="caixa-produto" onclick="selecionarPrato(this)">
                 <img src="imagens/frango_yin_yang 1.png" alt="">
                 <div class="texto-produto">
                     <h1>Frango sem penas</h1>
                     <p>Salada media e batata</p>
                     <p>E nada de frango</p>
-                    <h2>R$ 24,90</h2>
+                    
+                    <div class="check">
+                        <h2>R$ 24,90</h2>
+                        <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                    </div>
                 </div>
+                
             </div>   
-            <div class="caixa-produto" onclick="selecionado()">
+            <div class="caixa-produto" onclick="selecionarPrato(this)">
                 <img src="imagens/miojo.png" alt="">
                 <div class="texto-produto">
+                    
                     <h1>Miojo</h1>
                     <p>Muito bem temperado</p>
                     <p>sabor: galinha caipira</p>
-                    <h2>R$ 12,90</h2>
+                    <div class="check">
+                        <h2>R$ 12,90</h2>
+                        <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                    </div>
+                    
                 </div>
             </div> 
-            <div class="caixa-produto">
+            <div class="caixa-produto" onclick="selecionarPrato(this)">
                 <img src="imagens/prato.jpeg" alt="">
                 <div class="texto-produto">
                     <h1>Prato Vazio</h1>
                     <p>Não possui conteudo</p>
                     <p>E prato não incluso</p>
-                    <h2>R$ 4,90</h2>
+                    <div class="check">
+                        <h2>R$ 4,90</h2>
+                        <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                    </div>
                 </div>
             </div> 
-            <div class="caixa-produto">
+            <div class="caixa-produto" onclick="selecionarPrato(this)">
                 <img src="imagens/frango_yin_yang 1.png" alt="">
                 <div class="texto-produto">
                     <h1>Frango pt.2</h1>
                     <p>Salada boa e batata</p>
                     <p>E frango</p>
-                    <h2>R$ 104,90</h2>
+                    <div class="check">
+                        <h2>R$ 104,90</h2>
+                        <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                    </div>
                 </div>
             </div> 
  
             </div>
         </div>
-        <div class="caixa-pedido">
+        <div class="caixa-pedido" > 
             <h3>Agora, sua bebida</h3>
             <div class="caixa-todos-produtos">
-                <div class="caixa-produto">
+                <div class="caixa-produto" onclick="selecionarBebida(this)">
                     <img src="imagens/coca-cola-lata.jpeg" alt="">
                     <div class="texto-produto">
-                        <h1>Coca Cola Verde</h1>
+                        <h1 class="nome">Coca Cola Verde</h1>
                         <p>Pode não esteja gelada</p>
                         <p>Sem gás</p>
-                        <h2>R$ 12,91</h2>
+                        <div class="check">
+                            <h2>R$ 74,90</h2>
+                            <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                        </div>
                     </div>
                 </div> 
-                <div class="caixa-produto">
+                <div class="caixa-produto" onclick="selecionarBebida(this)">
                     <img src="imagens/lata-agua.jpg" alt="">
                     <div class="texto-produto">
                         <h1>Agua</h1>
                         <p>Temperatura natural</p>
                         <p>350ml</p>
-                        <h2>R$ 5,90</h2>
+                        <div class="check">
+                            <h2>R$ 8,90</h2>
+                            <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                        </div>
                     </div>
                 </div> 
-                <div class="caixa-produto">
+                <div class="caixa-produto" onclick="selecionarBebida(this)">
                     <img src="imagens/fusion.jpg" alt="">
                     <div class="texto-produto">
                         <h1>Energético fusion</h1>
                         <p>ZERO alcool</p>
                         <p>1000ml</p>
-                        <h2>R$ 5,90</h2>
+                        <div class="check">
+                            <h2>R$ 0,90</h2>
+                            <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                        </div>
                     </div>
                 </div> 
             </div>
@@ -101,41 +126,51 @@
         <div class="caixa-pedido">
             <h3>Por fim, sua sobremesa</h3>
             <div class="caixa-todos-produtos">
-                <div class="caixa-produto">
+                <div class="caixa-produto" onclick="selecionarSobremesa(this)">
                     <img src="imagens/torta-azul.png" alt="">
                     <div class="texto-produto">
                         <h1>Torta de Gelo</h1>
                         <p>Sabor agua gelada</p>
                         <p>contem corante</p>
-                        <h2>R$ 94,90</h2>
+                        <div class="check">
+                            <h2>R$ 124,90</h2>
+                            <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                        </div>
                     </div>
                 </div> 
-                <div class="caixa-produto">
+                <div class="caixa-produto" onclick="selecionarSobremesa(this)">
                     <img src="imagens/torta-roxa.png" alt="">
                     <div class="texto-produto">
                         <h1>Torta Roxa</h1>
                         <p>Torta sabor roxo</p>
                         <p>contem corante</p>
-                        <h2>R$ 134,90</h2>
+                        <div class="check">
+                            <h2>R$ 184,90</h2>
+                            <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                        </div>
                     </div>
                 </div> 
-                <div class="caixa-produto">
+                <div class="caixa-produto" onclick="selecionarSobremesa(this)">
                     <img src="imagens/torta-invertida.png" alt="">
                     <div class="texto-produto">
                         <h1>Torta Suspeita</h1>
                         <p>Foto ilustrativa</p>
                         <p>Importada</p>
-                        <h2>R$ 119,90</h2>
+                        <div class="check">
+                            <h2>R$ 604,90</h2>
+                            <ion-icon name="checkmark-circle" class="testexd"></ion-icon>
+                        </div>
                     </div>
                 </div> 
             </div>
         </div>
     </div>
-    <div class="caixa-menu-inferior">
-        <button onclick="">Qual a boa ?</button>
+    <div class="caixa-menu-inferior">  
+        <button onclick="finalizar()" class="botao-inferior">Qual a boa ?</button>
     </div>
     
     <script src="javinha.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     
 </body>
 </html>
