@@ -5,8 +5,9 @@ body{
 /************Selecionar*******************************************************************/
 
 .selecionado-prato, .selecionado-bebida, .selecionado-sobremesa{
-    box-sizing: border-box;
-    border: 5px #32B72F solid;
+    transition: 0.1s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+
     
 }
 .check{
@@ -99,6 +100,7 @@ body{
 .caixa-todos-produtos{
     display: flex;
     overflow-x: scroll;
+    height: calc(100% + 10px);
 
 }
 .caixa-produto{
@@ -113,7 +115,7 @@ body{
     width: 172px;
     height: 216px;
     border-radius: 9px;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    
 
     
 }
