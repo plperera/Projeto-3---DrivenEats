@@ -10,6 +10,8 @@ sobremesaPreco= 0;
 
 function finalizar(){
 
+    if (pratoPreco * bebidaPreco * sobremesaPreco !== 0){
+
     const total = "R$ " + (pratoPreco + bebidaPreco + sobremesaPreco).toFixed(2);
 
     let textoZap = `Olá, gostaria de fazer o pedido:\n
@@ -21,6 +23,7 @@ function finalizar(){
     textoZap ="https://wa.me/5535999351124?text=" + encodeURIComponent(textoZap);
 
     window.location.href = textoZap;
+    }
 }
 
 function tudoCerto(){
@@ -50,7 +53,6 @@ function selecionarPrato(elemento) {
 
     const outroSelecionado = document.querySelector(".selecionado-prato")
     if (outroSelecionado !== null) {
-
     outroSelecionado.classList.remove("selecionado-prato");
     document.querySelector(".toVendoTudo").classList.remove("toVendoTudo")
     }
