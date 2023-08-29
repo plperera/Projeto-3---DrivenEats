@@ -11,4 +11,4 @@ Driven Eats é uma aplicação de navegador web com o cliente consegue fazer ped
 1. Clone este repositório
 2. Instale a Extensão "Live Server"
 3. Adicione o numero do vendedor (Linha 10 do arquivo "javinha.js")
-3. Com o botão direito clique em "index.html" e em seguida em "Open with Live Server" (ou semelhante)
+4. Com o botão direito clique em "index.html" e em seguida em "Open with Live Server" (ou semelhante)
