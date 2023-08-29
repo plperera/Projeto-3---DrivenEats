@@ -7,6 +7,7 @@ bebidaPreco = 0;
 sobremesaNome = 0;
 sobremesaPreco= 0;
 
+numeroVendedor = 5535999351124
 
 function finalizar(){
 
@@ -20,7 +21,7 @@ function finalizar(){
         - Sobremesa: ${sobremesaNome}\n
         Total: ${total}`;
 
-    textoZap ="https://wa.me/5535999351124?text=" + encodeURIComponent(textoZap);
+    textoZap =`https://wa.me/${numeroVendedor}?text=${encodeURIComponent(textoZap)}`;
 
     window.location.href = textoZap;
     }
